@@ -5,11 +5,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-<<<<<<< HEAD
     "start": "nodemon server.js"
-=======
-    "start": "node server.js"
->>>>>>> 2f0395f3b133d29f984b4beb6acc1933a9d8b5f8
   },
   "author": "",
   "license": "ISC",
