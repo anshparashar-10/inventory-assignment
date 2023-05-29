@@ -8,9 +8,6 @@ import bodyParser from "body-parser";
 //configure env
 dotenv.config();
 
-//databse config
-connectDB();
-
 const app = express();
 
 app.use(bodyParser.json({ extended: true }));
@@ -26,5 +23,7 @@ app.get("/", function (req, res) {
 const PORT = 8080;
 
 app.listen(PORT, () => {
+  //databse config
+  connectDB();
   console.log(`Server Running on port ${PORT}`);
 });
